@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--网页的名字-->
+    <title>交个朋友</title>
+    <!--网页使用的css-->
+    <link rel="stylesheet" href="CSS/friend.css">
+</head>
+
+<body>
+    <!--页眉区header-->
+    <div id="header">
+        <!--在页眉区中分出一部分head，这部分填写文字-->
+       <div id="head">交个朋友</div>
+    </div>
+    <!--页眉区header结束-->
+
+
+    <!--导航区nav-->
+    <div id="nav">
+        <div id="nav_1">
+            <div class="nav_1_1">
+              <a href="index.html" title="我的首页" >我的首页</a>
+            </div>
+            <div class="nav_1_1">
+              <a href="study.html" title="学业状况" >学业状况</a>
+            </div>
+            <div class="nav_1_1">
+              <a href="hobby.html" title="兴趣爱好" >兴趣爱好</a>
+            </div>
+            <div class="nav_1_1">
+              <a href="friend.html" title="交个朋友" >交个朋友</a>
+            </div>
+        </div>
+    </div>
+    <!--导航区nav结束-->
+
+    <!--内容区content，内部又分为两个部分content1、form-->
+    <div id="content">
+      <!--content1 ，内部包含图片img和文字content1_1两部分-->
+      <div id="content1">
+        <img src="img/head1.png" alt="头像">
+        <div id="content1_1">让我们交个朋友吧！</div>
+      </div>
+      <!--content1结束-->
+      <!--表单form，内部又分为4部分，有3部分共用一个样式form1，还有form2、form3、form4-->
+      <form action="" method="POST">
+        <!--第一个form1，内部又分为form1_1，form1_2-->
+       <div class="form1">
+          <div class="form1_1">
+            你和我的年龄相同吗？
+          </div>
+          <div class="form1_2">
+                  <input type="radio" name="older" value="比我年龄大">比我年龄大<br>
+                  <input type="radio" name="same" value="和我年龄相同">和我年龄相同<br>
+                  <input type="radio" name="younger" value="比我年龄小">比我年龄小<br>
+          </div>
+       </div>
+       <!--第一个form1结束-->
+       <!--第二个form1，内部又分为form1_1，form1_2-->
+       <div class="form1">
+          <div class="form1_1">
+            你和我的爱好相似吗？
+          </div>
+          <div class="form1_2">
+                <input type="radio" name="Exactly the same" value="完全一样">完全一样<br>
+                <input type="radio" name="Partly the same" value="部分一样">部分一样<br>
+                <input type="radio" name="Kind of the same" value="有点一样">有点一样<br>
+                <input type="radio" name="Quite different" value="完全不一样">完全不一样<br>
+          </div>
+       </div>
+        <!--第二个form1结束-->
+        <!--第三个form1，内部又分为form1_1，form1_3-->
+       <div class="form1">
+          <div class="form1_1">
+            你有什么话想对我说吗？（比如介绍你自己、和我交流一些有趣的事情、问我一些你想要了解的问题）
+          </div>
+          <div class="form1_3">
+                  <textarea name="answer" rows="6" cols="80"></textarea>
+          </div>
+       </div>
+       <!--第三个form1结束-->
+       <!--form2-->
+       <div class="form2">
+         你的信息收集
+       </div>
+       <!--form2结束-->
+       <!--form3，内部又包含两个部分form3_1、form3_2-->
+       <div class="form3">
+         <!--form3_1-->
+          <div class="form3_1">
+            你也可以直接加我的
+            <span>QQ：2431023496</span>
+            ，我看到了会回应你哒！
+          </div>
+          <!--form3_1结束-->
+          <!--form3_2，内部又分为两个部分共用一个样式form3_2_1-->
+          <div class="form3_2">
+              <div class="form3_2_1">
+                      <span class="form3_2_1_1">姓名</span>
+                      <span class="form3_2_1_2"><input type="text" size="20" name="name" value=""></span>
+              </div>
+              <div class="form3_2_1">
+                <span class="form3_2_1_1">联系方式</span>
+                <span class="form3_2_1_2"><input type="text" size="20" name="tellphone" value=""></span>
+              </div>
+          </div>
+          <!--form3_2结束-->
+        </div>
+        <!--form3结束-->
+        <!--form4-->
+        <div class="form4">
+          <div class="form4_1">
+              <input class="form4_1_1" type="submit" value="提交">
+          </div>
+        </div>
+        <!--form4结束-->
+      </form>
+      <!--form结束-->
+    </div>
+    <!--内容区content结束-->
+
+     <!--页脚区footer-->
+     <div id="footer">
+      <p>吴琦凡|邮箱2431023496@qq.com</p>
+    </div>
+    <!--页脚区footer结束-->
+    
+</body>
+</html>

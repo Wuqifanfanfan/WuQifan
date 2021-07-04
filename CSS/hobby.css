@@ -1,0 +1,210 @@
+/*大背景设置为粉红色*/
+body{
+    background-color:rgb(247, 210, 216);
+    margin: 0;
+}
+
+/*设置页眉区header的高度，宽度与网页宽度保持一致，背景图片设为横向重复，设置图片的大小*/
+#header{
+    height:100px;
+    background-image: url(../img/天空.jpg);
+    background-repeat:repeat-x;
+    background-size: 10% 100%;
+}
+
+/*对页眉区中划分出来的块设置大小还有背景颜色以及边框的颜色和样式*/
+#head{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 28px;
+    background-color: rgb(216, 226, 252);
+    border:2px white dashed ;
+    border-radius: 50px;
+    color:rgb(250, 145, 145);
+    font-size: 30px;
+    font-family:"SimSun";
+    font-weight:bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*设置导航区nav的高度以及背景颜色*/
+#nav{
+    height:50px;
+    background-color:  rgb(112, 140, 211);
+}
+
+/*设置导航区的宽度以及导航区居中*/
+#nav_1{
+    width:1000px;
+    margin: auto;
+}
+
+/*设置导航区一个块的宽度以及文字位置*/
+.nav_1_1{
+    width: 250px;
+    margin: 0;
+    padding:0;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+/*设置导航区<a>元素文字样式*/
+.nav_1_1 a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    padding:0 90px;
+    text-align: center;
+    line-height:50px;
+    text-decoration:none;
+}
+
+/*设置鼠标出碰到后导航区的颜色变化*/
+.nav_1_1:hover{
+    background-color: #2f71bd;
+}
+
+/*设置内容区的大小以及位置*/
+#content{
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+/*设置块元素的背景大小以及位置*/
+#content1{
+    float: left;
+    height: 330px;
+    width: 260px;
+    background-color: rgb(216, 226, 252);
+    border-radius: 5px;
+    border: 3px white solid;
+    margin-left: 80px;
+}
+
+/*设置图片的大小以及位置*/
+#content1 img{
+    width: 200px;
+    height: 267px;
+    margin-left: 30px;
+    margin-top: 27px;
+}
+
+/*设置块元素的大小位置以及背景颜色还有边框*/
+#content2{
+    float: left;
+    height: 330px;
+    width: 500px;
+    background-color: rgb(216, 226, 252);
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 3px white solid;
+}
+
+/*设置元素类型以及大小位置*/
+#content2_1{
+    list-style: none;
+    display:list-item;
+    margin-top: 23px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 290px;
+    padding: 0;
+}
+
+/*设置大小及位置*/
+.content2_1_1{
+    margin-bottom: 30px;
+    height: 34px;
+    list-style:none;
+}
+
+/*设置文字大小位置以及岩石颜色还有背景图片*/
+.content2_1_1_1{
+    width: 90px;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    font-weight: bold;
+    background-image:url(../img/背景1.png);
+    background-size: 50% 100%;
+    color:rgb(46, 44, 44);
+    font-size: 20px;
+    font-family: "YouYuan";
+    text-align: center;
+}
+
+/*设置块元素的大小以及位置*/
+#content2_1_1_2{
+    width: 330px;
+    height: 34px;
+    float: left;
+    margin-left: 30px;
+}
+
+/*设置文字的位置类型大小以及颜色*/
+#content2_1_1_2 p{
+    color: #333;
+    font-family: "STHeiti";
+    font-size:18px;
+    margin-top: 6px;
+    font-weight:500;
+}
+
+/*设置块的大小以及位置*/
+#content2_1_1_3{
+    width: 330px;
+    height: 34px;
+    float: left;
+    margin-left: 15px;
+}
+
+/*设置文字的大小类型以及位置*/
+#content2_1_1_3 p{
+    color: #333;
+    font-family: "STHeiti";
+    font-size:13px;
+    margin-top: 6px;
+    font-weight:normal;
+}
+/*设置块的位置以及大小*/
+#content3{
+    float: left;
+    height: 330px;
+    width: 250px;
+}
+
+/*设置图片大小以及位置*/
+#content3 img{
+    margin-top: 24px;
+    height: 308px; ;
+    width: 240px;
+}
+
+/*设置页脚区位置大小以及背景图*/
+#footer{
+    margin-top: 40px;
+    padding-top: 50px;
+    height: 20px;
+    background-image: url(../img/页脚区图片.png);
+    background-repeat:repeat-x;
+    background-size: 25% 100%;
+}
+
+/*设置文字样式大小背景颜色以及位置*/
+#footer p{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 100;
+    background-color:  rgb(216, 226, 252);
+    text-align: center;
+}
+

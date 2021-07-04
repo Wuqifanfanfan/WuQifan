@@ -1,0 +1,335 @@
+/*大背景设置为粉红色*/
+body{
+    background-color:rgb(247, 210, 216);
+    margin: 0;
+}
+
+/*设置页眉区header的高度，宽度与网页宽度保持一致，背景图片设为横向重复，设置图片的大小*/
+#header{
+    height: 100px;
+    background-image: url(../img/天空.jpg);
+    background-repeat:repeat-x;
+    background-size: 10% 100%;
+}
+
+/*对页眉区中划分出来的块设置大小还有背景颜色以及边框的颜色和样式*/
+#head{
+    width: 330px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(216, 226, 252);
+    border:2px white dashed ;
+    border-radius: 50px;
+}
+
+/*对块中的段落文字进行设置*/
+#head p{
+    color:rgb(250, 145, 145);
+    font-size: 25px;
+    font-family:"SimSun";
+    font-weight:bold;
+    margin: 0;
+    text-align: center;
+}
+
+/*设置导航区nav的高度以及背景颜色*/
+#nav{
+    height:50px;
+    background-color:  rgb(112, 140, 211);
+}
+
+/*设置导航区的宽度以及导航区居中*/
+#nav_1{
+    width:1000px;
+    margin: auto;
+}
+
+/*设置导航区一个块的宽度以及文字位置*/
+.nav_1_1{
+    width: 250px;
+    margin: 0;
+    padding:0;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+}
+
+/*设置导航区<a>元素文字样式*/
+.nav_1_1 a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    padding:0 90px;
+    text-align: center;
+    line-height:50px;
+    text-decoration:none;
+}
+
+/*设置鼠标出碰到后导航区的颜色变化*/
+.nav_1_1:hover{
+    background-color: #2f71bd;
+}
+
+/*设置内容区域的大小位置以及用表格的样式布局*/
+#content{
+    display:table;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+}
+
+/*设置表格的行*/
+#content1{
+    height:300px;
+    display:table-row;
+}
+
+/*设置表格的列*/
+#content1_1{
+    width:200px;
+    height: 300px;
+    display: table-cell;
+}
+
+/*设置图片的大小*/
+#content1_1 img{
+    width: 159px;
+    height: 300px;
+}
+
+/*设置表格第二列的样式*/
+#content1_2{
+    display: table-cell;
+    width: 300px;
+    height:320px;
+    background-color: rgb(216, 226, 252);
+    border-top:5px white solid;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+/*设置块的大小以及位置*/
+.Title{
+    margin-top:10px;
+    height:60px;
+}
+
+/*设置块的大小以及位置*/
+.Title1{
+    margin-top:0;
+    margin-left:5px;
+    height:60px;
+}
+
+/*设置块中图片大小以及让后续文字处于图片中心线上*/
+.Title1 img{
+    width: 60px;
+    height: 60px;
+    vertical-align:middle;
+}
+
+/*设置块中文字的样式以及背景*/
+#title{
+    color: rgb(46, 44, 44);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "YouYuan";
+    background-image: url(../img/背景1.png);
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+}
+
+/*设置列表元素的位置以及大小*/
+#content1_2_1{
+    list-style: none;
+    display:list-item;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 220px;
+    padding: 0;
+}
+
+/*设置列表项目中文字的大小以及位置*/
+.content1_2_1_1{
+    margin-bottom: 12px;
+    height: 34px;
+    list-style:none;
+}
+
+/*设置文字样式大小背景以及位置*/
+.content1_2_1_1_1{
+    width: 41px;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    background-color:rgb(252, 203, 203);
+    color:rgb(46, 44, 44);
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+
+/*设置块元素的大小位置*/
+.content1_2_1_1_2{
+    width: 270px;
+    height: 34px;
+    float: left;
+    margin-left: 15px;
+}
+
+/*设置文字样式大小以及位置*/
+.content1_2_1_1_2 p{
+    color: #333;
+    font-family: "STHeiti";
+    font-size:16px;
+    margin-top: 5px;
+    font-weight:500;
+}
+
+/*设置文字样式大小背景以及位置*/
+.content1_2_1_1_3{
+    width: 41px;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    background-color:white;
+    color:rgb(46, 44, 44);
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+
+/*设置表格列元素的背景大小以及位置*/
+#content1_3{
+    display: table-cell;
+    width: 500px;
+    height:320px;
+    background-color: white;
+    border-top:5px  rgb(216, 226, 252) solid;
+    vertical-align: top;
+}
+
+/*设置块元素大小以及位置*/
+#content1_3_1{
+    width: 380px;
+    height: 325px;
+    float: left;
+    margin-left: 10px;
+}
+
+/*设置块元素大小以及位置*/
+#content1_3_2{
+    width:150px;
+    height: 325px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*设置文字大小样式以及背景图*/
+#title1{
+    color: rgb(46, 44, 44);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "YouYuan";
+    background-image: url(../img/背景2.png);
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+}
+
+/*设置块元素大小以及位置*/
+#content1_3_1_1{
+    width: 360px;
+    height: 230px;
+    margin-left: 5px;
+}
+
+/*设置段落文字样式以及大小颜色*/
+#content1_3_1_1 p{
+    color: rgb(46, 44, 44);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "SimSun";
+}
+
+/*设置块元素位置大小以及边框*/
+#content1_3_2_1{
+    margin-top:50px;
+    width: 110px;
+    height: 216px;
+    border: 10px rgb(216, 226, 252) dashed;
+}
+
+/*设置图片大小*/
+#content1_3_2_1 img{
+    width: 110px;
+    height: 216px;
+}
+
+/*设置新加的内容区的大小*/
+#addcontent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 400px;
+    margin-top:10px;
+}
+
+/*设置块的大小位置以及背景还有内部文字的样式以及大小*/
+#addcontent1{
+    height: 30px;
+    width: 105px;
+    color: rgb(46, 44, 44);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "YouYuan";
+    background-color:white;
+    border-bottom: 5px rgb(216, 226, 252) solid;
+}
+
+/*设置块的大小背景以及位置*/
+.addcontent2{
+    height:320px;
+    background-color:rgb(216, 226, 252);
+    margin-top: 5px;
+}
+
+/*设置图片的位置大小以及边框*/
+.addcontent2 img{
+    float: left;
+    width: 200px;
+    height: 295px;
+    margin-left:33px;
+    margin-top: 10px;
+    border:2px white solid;
+}
+
+/*设置页脚区位置大小以及背景图*/
+#footer{
+    margin-top: 40px;
+    padding-top: 50px;
+    height: 20px;
+    background-image: url(../img/页脚区图片.png);
+    background-repeat:repeat-x;
+    background-size: 25% 100%;
+}
+
+/*设置文字样式大小背景颜色以及位置*/
+#footer p{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 100;
+    background-color:  rgb(216, 226, 252);
+    text-align: center;
+}
+
+
+
+
